@@ -1,9 +1,8 @@
 <template>
   <div id="app" class="hello">
 
-    <h1>Welcome to the Serverless Voting App. Now with Amplify!</h1>
-    <h4>Click to vote on this very important issue.</h4>
-    <h4>You can vote as many times as you like. Click away!</h4>
+    <h1>Serverless Voting App</h1>
+  
 
     <b-row align-h="center" class="mt-5">
       <b-card-group deck>
@@ -21,7 +20,7 @@
       </b-card-group>
     </b-row>
     <b-row align-h="center" class="mt-5">
-      <p>Questions? Ask James <a href="https://twitter.com/jbesw">@jbesw</a>.</p>
+      
     </b-row>
   </div>  
 </template>
