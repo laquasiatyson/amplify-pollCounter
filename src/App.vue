@@ -8,13 +8,13 @@
       <b-card-group deck>
         <b-card bg-variant="success" text-variant="white" header="Vote Yes" class="text-center" footer-tag="footer">
           <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-          <b-button size="lg" variant="primary"  @click="vote('yes')">Button</b-button>
+          <b-button size="lg" variant="primary"  @click="vote('yes')">Yes</b-button>
           <em slot="footer">{{ votesYes }} voted</em>
         </b-card>
 
         <b-card bg-variant="danger" text-variant="white" header="Vote No" class="text-center" footer-tag="footer">
           <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
-          <b-button size="lg" variant="primary" @click="vote('no')">Button</b-button>
+          <b-button size="lg" variant="primary" @click="vote('no')">No</b-button>
           <em slot="footer">{{ votesNo }} voted</em>
         </b-card>
       </b-card-group>
